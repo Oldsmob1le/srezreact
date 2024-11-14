@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    color: black;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header-banner {
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links li {
+    color: #232323;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.register {
+    padding: 8px 20px;
+    margin-left: 10px;
+    border: 2px solid rgb(0, 111, 119);
+    background-color: transparent;
+    color: rgb(0, 111, 119);
+    cursor: pointer;
+    margin-left: 5em;
+}
+
+.login {
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    background-color: rgb(0, 111, 119);
+    color: white;
+    cursor: pointer;
+}
+.register:hover {
+    border: 1px solid#232323;
+    background-color: transparent;
+    color: #232323;
+}
+
+.login:hover {
+    border: 1px solid rgb(0, 111, 119);
+    background-color: transparent;
+    color: rgb(0, 111, 119);
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.register:focus {
+    outline: none;
+}
+
+.login:focus {
+    outline: none;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-button {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 111, 119);
+    color: rgb(0, 111, 119) !important;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+}
+
+.about-button:focus {
+    outline: none;
+}
+
+.first-text {
+    color: #232323;
+}
+
+.second-text {
+    color: rgb(0, 111, 119);
+}
+
+.slider-container {
+    max-width: 600px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+}
+
+.slider-container .slick-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
